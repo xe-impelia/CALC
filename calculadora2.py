@@ -1,7 +1,5 @@
-
 while True:
   opcion = int(input("Introduce opción: "))
-
   if opcion == 1:
     val1 = int(input("Introduce primer valor: "))
     val2 = int(input("Introduce segundo valor: "))
@@ -14,11 +12,9 @@ while True:
     print(resta)
   if opcion == 0:
     break
-  
-
-  
-
-
-
-
-	
+ 
+  if opcion == 3:
+      val1 = int(input("Introduce primer valor: "))
+      val2 = int(input("Introduce segundo valor: "))
+      mult = val1 * val2
+      print(mult)
