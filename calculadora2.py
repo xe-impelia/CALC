@@ -1,6 +1,5 @@
 while True:
   opcion = int(input("Introduce opción: "))
-
   if opcion == 1:
     val1 = int(input("Introduce primer valor: "))
     val2 = int(input("Introduce segundo valor: "))
@@ -11,6 +10,7 @@ while True:
     val2 = int(input("Introduce segundo valor: "))
     resta = val1 - val2
     print(resta)
+<<<<<<< HEAD
   elif opcion == 0:
     break  # Agrega esta línea para salir del bucle
   elif opcion == 3:
@@ -18,7 +18,14 @@ while True:
     valor2 = int(input("Introduce segundo valor: "))
     divi = valor1 / valor2
     print(divi)
-
+  if opcion == 0:
+    break
+ 
+  if opcion == 3:
+      val1 = int(input("Introduce primer valor: "))
+      val2 = int(input("Introduce segundo valor: "))
+      mult = val1 * val2
+      print(mult)
   
 
 
@@ -27,4 +34,4 @@ while True:
 
 
 
-	
+
