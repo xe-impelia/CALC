@@ -10,7 +10,6 @@ while True:
     val2 = int(input("Introduce segundo valor: "))
     resta = val1 - val2
     print(resta)
-<<<<<<< HEAD
   elif opcion == 0:
     break  # Agrega esta línea para salir del bucle
   elif opcion == 3:
@@ -26,6 +25,12 @@ while True:
       val2 = int(input("Introduce segundo valor: "))
       mult = val1 * val2
       print(mult)
+
+  if opcion == 5:
+    n1 = float(input("Ingrese el numero que desee elevar numero: "))
+    n2 = float(input("Ingrese el numero: "))
+    resul = n1 ** n2
+    print(resul)
   
 
 
