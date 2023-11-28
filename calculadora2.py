@@ -5,6 +5,7 @@ while True:
   if opcion == 1:
     val1 = int(input("Introduce primer valor: "))
     val2 = int(input("Introduce segundo valor: "))
+
     suma = val1 + val2
     print(suma)
   elif opcion == 2:
@@ -24,3 +25,5 @@ while True:
       val2 = int(input("Introduce segundo valor: "))
       mult = val1 * val2
       print(mult)
+
+print("hola")
