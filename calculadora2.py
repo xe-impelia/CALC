@@ -24,12 +24,3 @@ while True:
       val2 = int(input("Introduce segundo valor: "))
       mult = val1 * val2
       print(mult)
-  
-
-
-  
-
-
-
-
-
