@@ -24,7 +24,13 @@ while True:
       val2 = int(input("Introduce segundo valor: "))
       mult = val1 * val2
       print(mult)
-  
+  if opcion == 6:
+    val1 = int(input("Introduce primer valor: "))
+    val2 = int(input("Introduce segundo valor: "))
+    if val1 < val2:
+      print(val2)
+    else:
+      print(val1)
 
 
   
